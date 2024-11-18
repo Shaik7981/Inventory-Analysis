@@ -130,8 +130,49 @@ B40 Project/
 
 ---
 
+## **Prerequisites**
 
+- **Python**: Install pandas and MySQL connector (`pip install pandas mysql-connector-python`).
+- **MySQL Database**: Install and configure MySQL Workbench.
+- **Power BI**: Download and install Power BI Desktop.
+
+---
+
+## **How to Run the Project**
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/Inventory Analysis .git
+   ```
+
+2. **Data Cleaning**:
+   - Navigate to the `scripts/` folder and run the `Data_cleaning (1).py` script to clean the dataset.
+   ```bash
+   python Data_cleaning (1).py
+   ```
+
+3. **Set Up MySQL Database**:
+   - Run the `Digital_explorers_041.sql` script to create the database and tables.
+   ```bash
+   mysql -u username -p < Digital_explorers_041 .sql
+   ```
+
+4. **Load Data into SQL**:
+   - Load the cleaned data into the SQL database using MySQL Workbench or command line.
+
+5. **Power BI Dashboard**:
+   - Open `Digital Explorers.pbix` in Power BI Desktop.
+   - Ensure the data connection is configured to your SQL database.
+   - Set up automatic refresh for real-time data updates.
+
+---
  
+## **Contributing**
+
+Feel free to submit issues or contribute to the project by creating pull requests. Check the `CONTRIBUTING.md` for guidelines.
+
+---
+
 
   
   
