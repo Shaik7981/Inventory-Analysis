@@ -87,7 +87,7 @@ df5.to_csv('BegInvFINAL12312016.csv', index = False)
 2. Create dynamic visualizations using sales and product data.
 3. Enable automatic refresh to update the dashboard in real-time.
 
-https://github.com/Shaik7981/Inventory-Analysis/blob/main/purchase%20Dash%20board.png
+![purchase Dash board.png](https://github.com/Shaik7981/Inventory-Analysis/blob/main/purchase%20Dash%20board.png)
 
 ![Sales dashboard.png](https://github.com/Shaik7981/Inventory-Analysis/blob/main/Sales%20dashboard.png)
 
