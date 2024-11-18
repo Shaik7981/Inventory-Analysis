@@ -35,7 +35,7 @@
 
 - **Python Script**: `Data_cleaning (1)`  
   The `Data_cleaning (1)` script handles reading, cleaning, and preprocessing CSV files using the pandas library. This step ensures data consistency before loading into the SQL database.
-```
+  ```
 
 ---
 
@@ -43,7 +43,7 @@
 
 - **SQL Setup Script**: `Digital_explorers_041.sql`  
   This script creates the necessary tables in MySQL for storing the cleaned data. Ensure you have MySQL Workbench or an equivalent setup.
-```
+  ```
 
 ---
 
@@ -52,6 +52,10 @@
 - **Power BI File**: `Digital Explorers.pbix`  
   This file contains an interactive, real-time dashboard built in Power BI. The dashboard includes visualizations like:
 
+  - **Month wise Sales**: A bar chart showing sales of inventory for Every Month.
+  - **Month Wise Purchases**: A line chart tracking Puchase of inventory for Every Month.
+  - **Average Purchases Cost of Inventory**: A KPI card comparing the cost of each product.
+ 
 
   
   
