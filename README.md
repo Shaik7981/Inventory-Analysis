@@ -91,6 +91,46 @@ df5.to_csv('BegInvFINAL12312016.csv', index = False)
 
 ![Sales dashboard.png](https://github.com/Shaik7981/Inventory-Analysis/blob/main/Sales%20dashboard.png)
 
+---
+
+### 4. Real-Time Data Updates
+
+Configure Power BI to refresh the data either at scheduled intervals or based on SQL triggers.
+
+- **Auto Refresh**:
+  - Set a refresh interval in Power BI (e.g., every 15 minutes).
+  - Use SQL triggers to push updates when significant changes occur in the data.
+
+---
+
+## **Folder Structure**
+
+```
+B40 Project/
+│
+├── data/
+│   ├── 2017PurchasePricesDec.csv
+│   ├── BegInvFINAL12312016.csv
+│   ├── EndInvFINAL12312016.csv
+│   ├── InvoicePurchases12312016.csv
+│   ├── PurchasesFINAL12312016.csv
+│   ├── SalesFINAL12312016.csv
+
+│
+├── scripts/
+│   ├── Data_cleaning (1).py
+│   ├── Digital_explorers_041.sql
+│
+├── dashboard/
+│   ├── Digital Explorers.pbix
+│
+├── README.md
+├── Screenshot.png
+```
+
+---
+
+
  
 
   
