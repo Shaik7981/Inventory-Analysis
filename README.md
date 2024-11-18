@@ -23,10 +23,10 @@
 3. **Power BI Dashboard**:  
    - Connect Power BI to the MySQL database.
    - Design an interactive dashboard that reflects key sales metrics and updates in real-time.
-   - 
+     
 4. **Real-Time Data Updates**:  
    - Configure Power BI to automatically refresh data at intervals or trigger updates based on SQL changes.
-   - 
+     
 ---
 
 ## **Project Steps**
