@@ -35,7 +35,32 @@
 
 - **Python Script**: `Data_cleaning (1)`  
   The `Data_cleaning (1)` script handles reading, cleaning, and preprocessing CSV files using the pandas library. This step ensures data consistency before loading into the SQL database.
-  ```
+**Example:**
+```python
+import pandas as pd
+
+# Load Inventory data
+df = pd.read_csv('2017PurchasePricesDec.csv')
+df1 = pd.read_csv('SalesFINAL12312016.csv')
+df2 = pd.read_csv('PurchasesFINAL12312016.csv')
+df3 = pd.read_csv('InvoicePurchases12312016.csv')
+df4 = pd.read_csv('EndInvFINAL12312016.csv')
+df5 = pd.read_csv('BegInvFINAL12312016.csv')
+
+# Clean and preprocess Sales data
+df2 = df2.dropna()
+df3 = df3.dropna()
+df4 = df4.dropna()
+df5 = df5.dropna()
+
+# Export cleaned data
+df.to_csv("2017PurchasePricesDec.csv", index = False)
+df1.to_csv("cleaned_SalesFinal",index = False)
+df2.to_csv("cleaned_PurchaseFinal1",index= False)
+df3.to_csv('InvoicePurchases12312016.csv', index = False)
+df4.to_read_csv('EndInvFINAL12312016.csv', index = False)
+df5.to_csv('BegInvFINAL12312016.csv', index = False)
+```
 
 ---
 
@@ -43,7 +68,6 @@
 
 - **SQL Setup Script**: `Digital_explorers_041.sql`  
   This script creates the necessary tables in MySQL for storing the cleaned data. Ensure you have MySQL Workbench or an equivalent setup.
-  ```
 
 ---
 
