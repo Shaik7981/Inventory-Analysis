@@ -33,5 +33,6 @@
 
 ### 1. Dataset Processing
 
-- **Python Script**: `data_processing.py`  
-  The `data_processing.py` script handles reading, cleaning, and preprocessing CSV files using the pandas library. This step ensures data consistency before loading into the SQL database.
+- **Python Script**: `Data_cleaning (1)`  
+  The `Data_cleaning (1)` script handles reading, cleaning, and preprocessing CSV files using the pandas library. This step ensures data consistency before loading into the SQL database.
+  
