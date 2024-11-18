@@ -79,6 +79,17 @@ df5.to_csv('BegInvFINAL12312016.csv', index = False)
   - **Month wise Sales**: A bar chart showing sales of inventory for Every Month.
   - **Month Wise Purchases**: A line chart tracking Puchase of inventory for Every Month.
   - **Average Purchases Cost of Inventory**: A KPI card comparing the cost of each product.
+  
+**Power BI Setup**:
+1. Connect Power BI to the MySQL database:
+   - Go to "Get Data" > "MySQL Database".
+   - Enter your database connection details and load the tables.
+2. Create dynamic visualizations using sales and product data.
+3. Enable automatic refresh to update the dashboard in real-time.
+
+https://github.com/Shaik7981/Inventory-Analysis/blob/main/purchase%20Dash%20board.png
+
+https://github.com/Shaik7981/Inventory-Analysis/blob/main/Sales%20dashboard.png
  
 
   
