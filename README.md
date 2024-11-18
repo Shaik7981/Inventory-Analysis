@@ -89,7 +89,8 @@ df5.to_csv('BegInvFINAL12312016.csv', index = False)
 
 https://github.com/Shaik7981/Inventory-Analysis/blob/main/purchase%20Dash%20board.png
 
-https://github.com/Shaik7981/Inventory-Analysis/blob/main/Sales%20dashboard.png
+![https://github.com/Shaik7981/Inventory-Analysis/blob/main/Sales%20dashboard.png)
+
  
 
   
