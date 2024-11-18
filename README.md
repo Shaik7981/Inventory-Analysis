@@ -13,11 +13,11 @@
  This project follows a structured approach with the following key steps:
 
 1. **Data Processing**:  
-   - Load and clean the Adventure Works dataset using Python and pandas.
+   - Load and clean the Inventory Analysis dataset using Python and pandas.
    - Handle missing data, normalize formats, and ensure data consistency.
 
 2. **SQL Database Setup**:  
-   - Create a MySQL database with appropriate tables for each dataset (Product, Sales, Region, etc.).
+   - Create a MySQL database with appropriate tables for each dataset.
    - Load cleaned data into the MySQL tables.
    
 3. **Power BI Dashboard**:  
